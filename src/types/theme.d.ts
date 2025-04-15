@@ -1,4 +1,4 @@
-export interface theme {
+export interface Theme {
   appBackground: string
   appColor: string
   appDefaultStroke: string
@@ -9,29 +9,28 @@ export interface theme {
     alert: string
     alertColor: string
     alertHover: string
-    disableColor: string
+    disabled: string
+    disabledColor: string
     primary: string
     primaryColor: string
     primaryHover: string
   }
-
   card: {
     alert: string
     background: string
+    border: string
     success: string
     warning: string
   }
-
   textInput: {
     active: string
     activeColor: string
     borderColor: string
-    disable: string
-    disableBorderColor: string
-    disableColor: string
+    disabled: string
+    disabledBorderColor: string
+    disabledColor: string
     placeholderColor: string
   }
-
   typographies: {
     error: string
     subtitle: string

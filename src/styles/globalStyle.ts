@@ -1,7 +1,9 @@
 import { createGlobalStyle } from 'styled-components'
+import { DefaultTheme } from 'styled-components'
 
-export const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle<{ theme?: DefaultTheme }>`
     body, html{
+        background: ${(props) => props.theme.appBackground};
         margin: 0;
         padding: 0;
         font-family:  "Inter", sans-serif;
