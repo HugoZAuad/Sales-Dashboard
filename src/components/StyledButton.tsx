@@ -17,5 +17,36 @@ export const StyledButton = styled.button<ButtonProps>`
   &.primary {
     background-color: ${(props) => props.theme.buttons.primary};
     color: ${(props) => props.theme.buttons.primaryColor};
+    &:hover {
+      background-color: ${(props) => props.theme.buttons.primaryHover};
+    }
+  }
+
+  &.alert {
+    background-color: ${(props) => props.theme.buttons.alert};
+    color: ${(props) => props.theme.buttons.alertColor};
+    &:hover {
+      background-color: ${(props) => props.theme.buttons.alertHover};
+    }
+  }
+
+  &.bordererless-alert {
+    background-color: none;
+    color: ${(props) => props.theme.buttons.alert};
+    height: 0;
+    padding: 0;
+    &:hover {
+      color: ${(props) => props.theme.buttons.alertHover};
+    }
+  }
+
+  &:disabled {
+    background-color: ${(props) => props.theme.buttons.disabled};
+    color: ${(props) => props.theme.buttons.disabledColor};
+    cursor: not-allowed;
+    &:hover {
+      background-color: ${(props) => props.theme.buttons.disabled};
+      color: ${(props) => props.theme.buttons.disabledColor};
+    }
   }
 `

@@ -16,11 +16,16 @@ function Login() {
               <h1>LOGIN</h1>
               <FormComponent
                 inputs={[
-                  { type: 'email', placeholder: 'Email' },
+                  { type: 'email', placeholder: 'Email', disabled: true },
                   { type: 'password', placeholder: 'senha' },
                 ]}
                 buttons={[
-                  { className: 'primary', type: 'submit', children: 'Login' },
+                  {
+                    className: 'primary',
+                    type: 'submit',
+                    children: 'Login',
+                    disabled: true,
+                  },
                 ]}
                 message={{
                   msg: 'Sucesso!',
