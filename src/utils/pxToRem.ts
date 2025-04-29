@@ -1,6 +1,6 @@
 /**
  *  Convert Pixels to rem
- *  @param Pixels -Pixels valueto be converted
+ *  @param Pixels - Pixels valueto be converted
  *  @returns The convertedrem value
  */
 
