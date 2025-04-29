@@ -1,10 +1,18 @@
+import styled from 'styled-components'
 import { StyledButton, StyledInput } from '@/components'
 import { formComponentProps } from '@/types'
+import { pxToRem } from '@/utils'
+
+export const StyledForm = styled.form`
+  display: flex;
+  flex-direction: column;
+  row-gap: ${pxToRem(16)};
+`
 
 function FormComponent(props: formComponentProps) {
   const { inputs, buttons, message } = props
   return (
-    <form>
+    <StyledForm>
       {inputs.map((inputProps, index) => (
         <StyledInput key={index} {...inputProps} />
       ))}
@@ -16,7 +24,7 @@ function FormComponent(props: formComponentProps) {
           {message.msg}
         </div>
       )}
-    </form>
+    </StyledForm>
   )
 }
 
