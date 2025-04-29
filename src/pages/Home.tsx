@@ -24,7 +24,7 @@ function Home() {
     <>
       <Header />
       <Container maxWidth="lg">
-        <CardComponent>CARD</CardComponent>
+        <CardComponent>CARDs</CardComponent>
         <CardComponent>
           <AvatarList listData={mockListData} />
         </CardComponent>
