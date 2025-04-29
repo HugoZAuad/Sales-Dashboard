@@ -65,7 +65,7 @@ function Home() {
           <CustomChart
             labels={['Jan', 'Fev', 'Mar', 'Abr', 'Mai']}
             data={[1000.12, 2456.54, 986.32, 654.89, 1234.56, 789.01]}
-            type="bar"
+            type="line"
           />
         </CardComponent>
       </Container>
