@@ -24,4 +24,23 @@ export const GlobalStyle = createGlobalStyle<{ theme?: Theme }>`
         margin-bottom: ${pxToRem(32)};
     }
 
+    .skeleton-loading{
+        animation: skeletonLoading 2s infinite alternate
+    }
+
+    @keyframes skeletonLoading {
+        from{
+        ${(props) => props.theme.appSkeletonFrom}
+        }
+        to{
+        ${(props) => props.theme.appSkeletonTo}
+        }
+    }
+
+    .skeleton-loaging-mh-1{
+        min-height: ${pxToRem(175)};
+    }
+    .skeleton-loaging-mh-2{
+        min-height: ${pxToRem(400)};
+    }
 `
