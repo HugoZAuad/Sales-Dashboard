@@ -40,7 +40,7 @@ function Login() {
         return { msg: 'Email e/ou senha inválidos', type: 'error' }
       default:
         return {
-          msg: 'Não foi possivel realizar a operação. Entre em contato com nosso suporte',
+          msg: 'Não foi possivel realizar a operação. Entre em contato com nosso suporte.',
           type: 'error',
         }
     }
