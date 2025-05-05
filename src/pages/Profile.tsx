@@ -57,7 +57,7 @@ function Profile() {
   } = usePut<ProfileEditableData>('profile/update')
 
   const { deleteData: profileDeleteData, loading: profileDeleteLoading } =
-    useDelete('profile/update')
+    useDelete('profile/delete')
 
   useEffect(() => {
     if (profileData) {

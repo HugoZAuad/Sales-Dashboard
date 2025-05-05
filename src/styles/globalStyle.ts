@@ -43,4 +43,15 @@ export const GlobalStyle = createGlobalStyle<{ theme?: Theme }>`
     .skeleton-loading-mh-2{
         min-height: ${pxToRem(400)};
     }
+
+    .borderless-alert {
+        border: none;
+        background: none;
+        color: #E80000;
+
+        
+    }
+            .borderless-alert:hover {
+        color: #D80000;
+    }
 `
