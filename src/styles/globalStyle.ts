@@ -37,10 +37,10 @@ export const GlobalStyle = createGlobalStyle<{ theme?: Theme }>`
         }
     }
 
-    .skeleton-loaging-mh-1{
+    .skeleton-loading-mh-1{
         min-height: ${pxToRem(175)};
     }
-    .skeleton-loaging-mh-2{
+    .skeleton-loading-mh-2{
         min-height: ${pxToRem(400)};
     }
 `
