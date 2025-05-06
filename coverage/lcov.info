@@ -1,4 +1,5 @@
 TN:
+<<<<<<< HEAD
 SF:src\components\AvatarList.tsx
 FN:6,AvatarList
 FN:9,(anonymous_1)
@@ -23,12 +24,20 @@ FNF:0
 FNH:0
 DA:1,4
 DA:3,4
+=======
+SF:src\components\BannerImage.tsx
+FNF:0
+FNH:0
+DA:1,1
+DA:3,1
+>>>>>>> f4bd104 (feat: adding unit tests)
 LF:2
 LH:2
 BRF:0
 BRH:0
 end_of_record
 TN:
+<<<<<<< HEAD
 SF:src\components\CardComponent.tsx
 FN:5,(anonymous_1)
 FN:6,(anonymous_2)
@@ -507,12 +516,18 @@ BRF:0
 BRH:0
 end_of_record
 TN:
+=======
+>>>>>>> f4bd104 (feat: adding unit tests)
 SF:src\utils\highlightTextConverter.ts
 FN:7,highlightTextConverter
 FNF:1
 FNH:1
 FNDA:4,highlightTextConverter
+<<<<<<< HEAD
 DA:7,7
+=======
+DA:7,1
+>>>>>>> f4bd104 (feat: adding unit tests)
 DA:8,4
 DA:10,1
 DA:12,1
@@ -528,6 +543,7 @@ BRF:4
 BRH:4
 end_of_record
 TN:
+<<<<<<< HEAD
 SF:src\utils\index.ts
 FNF:0
 FNH:0
@@ -541,12 +557,18 @@ BRF:0
 BRH:0
 end_of_record
 TN:
+=======
+>>>>>>> f4bd104 (feat: adding unit tests)
 SF:src\utils\jwtExpirationDateConverter.ts
 FN:7,jwtExpirationDateConverter
 FNF:1
 FNH:1
 FNDA:3,jwtExpirationDateConverter
+<<<<<<< HEAD
 DA:7,7
+=======
+DA:7,1
+>>>>>>> f4bd104 (feat: adding unit tests)
 DA:8,3
 DA:9,3
 DA:10,3
@@ -562,9 +584,15 @@ SF:src\utils\pxToRem.ts
 FN:7,pxToRem
 FNF:1
 FNH:1
+<<<<<<< HEAD
 FNDA:127,pxToRem
 DA:7,7
 DA:8,127
+=======
+FNDA:7,pxToRem
+DA:7,1
+DA:8,7
+>>>>>>> f4bd104 (feat: adding unit tests)
 LF:2
 LH:2
 BRF:0

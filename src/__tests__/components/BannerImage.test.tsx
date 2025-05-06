@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react'
 import 'jest-styled-components'
-import { BannerImage } from '@/components'
+import { BannerImage } from '@/components/BannerImage'
 
 describe('BannerImage', () => {
   test('renders with correct styles', () => {

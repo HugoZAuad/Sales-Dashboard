@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <coverage generated="1746623611929" clover="3.2.0">
   <project timestamp="1746623611929" name="All files">
     <metrics statements="165" coveredstatements="108" conditionals="58" coveredconditionals="4" methods="80" coveredmethods="24" elements="303" coveredelements="136" complexity="0" loc="165" ncloc="165" packages="4" files="21" classes="21"/>
@@ -214,12 +215,31 @@
       <file name="highlightTextConverter.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\utils\highlightTextConverter.ts">
         <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="7" count="7" type="stmt"/>
+=======
+<coverage generated="1746561698322" clover="3.2.0">
+  <project timestamp="1746561698322" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="23" coveredelements="23" complexity="0" loc="16" ncloc="16" packages="2" files="4" classes="4"/>
+    <package name="components">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="BannerImage.tsx" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\components\BannerImage.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="highlightTextConverter.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\utils\highlightTextConverter.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+>>>>>>> f4bd104 (feat: adding unit tests)
         <line num="8" count="4" type="cond" truecount="4" falsecount="0"/>
         <line num="10" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
+<<<<<<< HEAD
       <file name="index.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\utils\index.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="7" type="stmt"/>
@@ -230,6 +250,11 @@
       <file name="jwtExpirationDateConverter.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\utils\jwtExpirationDateConverter.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="7" count="7" type="stmt"/>
+=======
+      <file name="jwtExpirationDateConverter.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\utils\jwtExpirationDateConverter.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+>>>>>>> f4bd104 (feat: adding unit tests)
         <line num="8" count="3" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
@@ -238,8 +263,13 @@
       </file>
       <file name="pxToRem.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\utils\pxToRem.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+<<<<<<< HEAD
         <line num="7" count="7" type="stmt"/>
         <line num="8" count="127" type="stmt"/>
+=======
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+>>>>>>> f4bd104 (feat: adding unit tests)
       </file>
     </package>
   </project>
