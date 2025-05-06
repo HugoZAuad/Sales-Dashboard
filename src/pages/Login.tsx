@@ -22,8 +22,15 @@ import { pxToRem, jwtExpirationDateConverter } from '@/utils'
 //Types
 import { MessageProps, LoginData, LoginPostData, DecodedJwt } from '@/types'
 
+//Redux
+import { useSelector } from 'react-redux'
+import { RootState } from '@/redux'
+
 function Login() {
   const navigate = useNavigate()
+  const { email, message } = useSelector(
+    (state: RootState) => state.createProfile
+  )
   const inputs = [
     { type: 'email', placeholder: 'Email' },
     { type: 'password', placeholder: 'senha' },
@@ -34,7 +41,7 @@ function Login() {
   const { formValues, formValid, handleChange } = useFormValidation(inputs)
 
   const handleMessage = (): MessageProps => {
-    if (!error) return { msg: '', type: 'sucess' }
+    if (!error) return { msg: message ?? '', type: 'sucess' }
     switch (Number(error)) {
       case 401:
         return { msg: 'Email e/ou senha inválidos', type: 'error' }
@@ -66,6 +73,12 @@ function Login() {
       navigate('/home')
     }
   }, [data, navigate])
+
+  useEffect(() => {
+    if (email) {
+      handleChange(0, email)
+    }
+  }, [email])
 
   return (
     <>

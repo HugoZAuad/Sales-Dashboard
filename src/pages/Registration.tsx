@@ -1,4 +1,5 @@
-import { ChangeEvent } from 'react'
+import { ChangeEvent, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 // Component
 import { Box, Container, Grid } from '@mui/material'
@@ -20,14 +21,18 @@ import { useFormValidation, usePost } from '@/hooks'
 //Redux
 import { useDispatch, useSelector } from 'react-redux'
 import { RootState } from '@/redux'
-import { setProfileData } from '@/redux/slices/createProfile'
+import { setMessage, setProfileData } from '@/redux/slices/createProfile'
 
 //Types
-import { InputProps } from '@/types'
+import { CreateProfileData, InputProps } from '@/types'
 
 function Registration() {
   const dispatch = useDispatch()
+  const Navigate = useNavigate()
   const { email } = useSelector((state: RootState) => state.createProfile)
+  const { data, loading, error, postData } = usePost<string, CreateProfileData>(
+    'profile/create'
+  )
 
   //Form Step1
   const step1Inputs: InputProps[] = [
@@ -55,6 +60,12 @@ function Registration() {
 
   const handleStep2 = async (e: React.FormEvent) => {
     e.preventDefault()
+    await postData({
+      name: String(step1FormValues[0]),
+      email: String(step1FormValues[1]),
+      phone: String(step1FormValues[2]),
+      password: String(step2FormValues[0]),
+    })
   }
 
   const {
@@ -64,6 +75,17 @@ function Registration() {
   } = useFormValidation(step2Inputs)
 
   const handleStepInputs = email ? step2Inputs : step1Inputs
+
+  useEffect(() => {
+    if (data !== null) {
+      dispatch(setMessage('Usuário criado com sucesso.'))
+      Navigate('/')
+    } else if (error) {
+      alert(
+        `Não foi possivel realizar a operação. Entre em contato com nosso suporte (${error}).`
+      )
+    }
+  }, [data, error, Navigate])
 
   return (
     <>
@@ -118,7 +140,9 @@ function Registration() {
                 buttons={[
                   {
                     className: 'primary',
-                    disabled: email ? !step2FormValid : !step1FormValid,
+                    disabled: email
+                      ? !step2FormValid || loading
+                      : !step1FormValid,
                     onClick: email ? handleStep2 : handleStep1,
                     type: 'submit',
                     children: email ? 'Enviar' : 'Próximo',
