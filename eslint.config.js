@@ -1,33 +1,63 @@
-import js from '@eslint/js'
-import globals from 'globals'
-import reactHooks from 'eslint-plugin-react-hooks'
-import reactRefresh from 'eslint-plugin-react-refresh'
-import * as tseslint from '@typescript-eslint/eslint-plugin'
-import eslintConfigPrettier from 'eslint-config-prettier'
+// eslint.config.js
+import tsParser from '@typescript-eslint/parser'
+import reactPlugin from 'eslint-plugin-react'
+import tsPlugin from '@typescript-eslint/eslint-plugin'
+import importPlugin from 'eslint-plugin-import'
+import reactHooksPlugin from 'eslint-plugin-react-hooks'
+import prettierPlugin from 'eslint-plugin-prettier'
+import cypressPlugin from 'eslint-plugin-cypress'
 
-export default tseslint.configs(
-  { ignores: ['dist'] },
+export default [
   {
-    extends: [
-      js.configs.recommended,
-      ...tseslint.configs.recommended,
-      eslintConfigPrettier,
-    ],
-    files: ['**/*.{ts,tsx}'],
+    // Configuração para arquivos JavaScript/TypeScript com JSX
     languageOptions: {
-      ecmaVersion: 2020,
-      globals: globals.browser,
+      parser: tsParser,
+      parserOptions: {
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+    },
+    settings: {
+      react: { version: 'detect' },
     },
     plugins: {
-      'react-hooks': reactHooks,
-      'react-refresh': reactRefresh,
+      react: reactPlugin,
+      '@typescript-eslint': tsPlugin,
+      import: importPlugin,
+      'react-hooks': reactHooksPlugin,
+      prettier: prettierPlugin,
     },
     rules: {
-      ...reactHooks.configs.recommended.rules,
-      'react-refresh/only-export-components': [
-        'warn',
-        { allowConstantExport: true },
-      ],
+      // Com a nova transformação de JSX (React 17+), não é necessário importar o React em cada arquivo
+      'react/react-in-jsx-scope': 'off',
+      // Regras dos hooks do React
+      'react-hooks/rules-of-hooks': 'error',
+      'react-hooks/exhaustive-deps': 'warn',
+      // Integração com o Prettier
+      'prettier/prettier': 'error',
+      // Aqui você pode adicionar outras regras personalizadas ou copiar regras equivalentes às recomendadas
     },
-  }
-)
+    files: ['**/*.{js,jsx,ts,tsx}'],
+  },
+  {
+    // Configuração específica para arquivos de teste (Jest)
+    files: ['**/*.test.{js,jsx,ts,tsx}'],
+    languageOptions: {
+      globals: { jest: 'readonly' },
+    },
+  },
+  {
+    // Configuração específica para arquivos do Cypress
+    files: ['cypress/**/*.{js,jsx,ts,tsx}'],
+    plugins: { cypress: cypressPlugin },
+    languageOptions: {
+      globals: {
+        Cypress: 'readonly',
+        cy: 'readonly',
+      },
+    },
+  },
+]
