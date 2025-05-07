@@ -1,3 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
 echo 'Commit test init...'
 
 # Prettier
@@ -11,3 +14,6 @@ npm run lint
 # Unit Tests
 echo 'Running Unit tests...'
 npm run test
+
+# Remove os arquivos da pasta de coverage da área de staging
+git reset HEAD coverage/
