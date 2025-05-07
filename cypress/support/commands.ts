@@ -1,6 +1,4 @@
-/* eslint-disable prettier/prettier */
 /* eslint-disable @typescript-eslint/no-namespace */
-/* eslint-disable prettier/prettier */
 /// <reference types="cypress" />
 
 declare namespace Cypress {

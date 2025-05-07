@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 // ***********************************************************
 // This example support/e2e.ts is processed and
 // loaded automatically before your test files.
