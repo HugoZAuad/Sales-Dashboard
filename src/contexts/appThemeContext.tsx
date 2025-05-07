@@ -17,7 +17,7 @@ export const AppThemeProvider = ({ children }: { children: ReactNode }) => {
 
   useEffect(() => {
     localStorage.setItem('theme', appTheme)
-  })
+  }, [appTheme])
 
   return (
     <AppThemeContext.Provider value={{ appTheme, toggleTheme }}>

@@ -1,4 +1,4 @@
-import { highlightTextConverter } from '@/utils/highlightTextConverter'
+import { highlightTextConverter } from '@/utils'
 
 describe('highlightTextConverter', () => {
   it('should return the correct text for "alert"', () => {
