@@ -61,6 +61,7 @@ function Home() {
             <>
               <Grid item xs={12} md={4}>
                 <CardComponent
+                  id="total-sales"
                   className={
                     highlightsLoading
                       ? 'skeleton-loading skeleton-loading-mh-1'
@@ -95,6 +96,7 @@ function Home() {
                       </StyledH2>
                       <StyledH3
                         className="mb-1"
+                        id="month-goals"
                         color="white"
                         size={40}
                         lineHeight={40}
@@ -110,6 +112,7 @@ function Home() {
               </Grid>
               <Grid item xs={12} md={4}>
                 <CardComponent
+                  id="total-leads"
                   className={
                     highlightsLoading
                       ? 'skeleton-loading skeleton-loading-mh-1'
@@ -133,6 +136,7 @@ function Home() {
           <Grid item xs={12} md={7}>
             {!salesMonthError && (
               <CardComponent
+                id="month-sales-chart"
                 className={
                   salesMonthLoading
                     ? 'skeleton-loading skeleton-loading-mh-2'
@@ -155,6 +159,7 @@ function Home() {
           <Grid item xs={12} md={5}>
             {!salesStarsError && (
               <CardComponent
+                id="sales-stars"
                 className={
                   salesStarsLoading
                     ? 'skeleton-loading skeleton-loading-mh-2'
@@ -181,6 +186,7 @@ function Home() {
           <Grid item xs={12} md={5}>
             {!newsError && (
               <CardComponent
+                id="news"
                 className={
                   newsLoading ? 'skeleton-loading skeleton-loading-mh-2' : ''
                 }
@@ -211,6 +217,7 @@ function Home() {
           <Grid item xs={12} md={7}>
             {!salesYearError && (
               <CardComponent
+                id="year-sales-chart"
                 className={
                   salesYearLoading
                     ? 'skeleton-loading skeleton-loading-mh-2'
