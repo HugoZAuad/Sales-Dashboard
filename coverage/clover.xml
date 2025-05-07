@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1746624691374" clover="3.2.0">
-  <project timestamp="1746624691374" name="All files">
-    <metrics statements="166" coveredstatements="96" conditionals="58" coveredconditionals="0" methods="81" coveredmethods="20" elements="305" coveredelements="116" complexity="0" loc="166" ncloc="166" packages="4" files="21" classes="21"/>
+<coverage generated="1746625467201" clover="3.2.0">
+  <project timestamp="1746625467201" name="All files">
+    <metrics statements="166" coveredstatements="109" conditionals="58" coveredconditionals="4" methods="81" coveredmethods="25" elements="305" coveredelements="138" complexity="0" loc="166" ncloc="166" packages="4" files="21" classes="21"/>
     <package name="components">
-      <metrics statements="133" coveredstatements="78" conditionals="54" coveredconditionals="0" methods="73" coveredmethods="19"/>
+      <metrics statements="133" coveredstatements="81" conditionals="54" coveredconditionals="0" methods="73" coveredmethods="22"/>
       <file name="AvatarList.tsx" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\components\AvatarList.tsx">
         <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
-        <line num="39" count="2" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
       </file>
       <file name="BannerImage.tsx" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\components\BannerImage.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
       </file>
       <file name="CardComponent.tsx" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\components\CardComponent.tsx">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="5" count="8" type="stmt"/>
         <line num="6" count="8" type="stmt"/>
         <line num="12" count="8" type="stmt"/>
@@ -34,23 +34,23 @@
       </file>
       <file name="CustomChart.tsx" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\components\CustomChart.tsx">
         <metrics statements="11" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
         <line num="66" count="0" type="stmt"/>
         <line num="76" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="83" count="2" type="stmt"/>
+        <line num="83" count="3" type="stmt"/>
       </file>
       <file name="CustomTable.tsx" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\components\CustomTable.tsx">
         <metrics statements="11" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
         <line num="52" count="0" type="stmt"/>
@@ -58,47 +58,47 @@
         <line num="59" count="0" type="stmt"/>
         <line num="65" count="0" type="stmt"/>
         <line num="67" count="0" type="stmt"/>
-        <line num="77" count="2" type="stmt"/>
+        <line num="77" count="3" type="stmt"/>
       </file>
       <file name="FormComponent.tsx" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\components\FormComponent.tsx">
         <metrics statements="9" coveredstatements="5" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="31" count="2" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
       </file>
       <file name="Header.tsx" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\components\Header.tsx">
         <metrics statements="10" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
-        <line num="42" count="2" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
       </file>
       <file name="Logo.tsx" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\components\Logo.tsx">
-        <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
       </file>
       <file name="StyledButton.tsx" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\components\StyledButton.tsx">
         <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="11"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="19" count="8" type="stmt"/>
         <line num="20" count="8" type="stmt"/>
         <line num="22" count="8" type="stmt"/>
@@ -113,9 +113,9 @@
       </file>
       <file name="StyledInput.tsx" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\components\StyledInput.tsx">
         <metrics statements="10" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
@@ -126,34 +126,34 @@
       </file>
       <file name="Typographies.tsx" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\components\Typographies.tsx">
         <metrics statements="32" coveredstatements="8" conditionals="48" coveredconditionals="0" methods="24" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="13" count="2" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
         <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="20" count="2" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
         <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="27" count="2" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
         <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="34" count="2" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
         <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="41" count="2" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
         <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -161,34 +161,34 @@
       </file>
       <file name="index.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\components\index.ts">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
       </file>
     </package>
     <package name="resources">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="themes.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\resources\themes.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
       </file>
     </package>
     <package name="styles">
       <metrics statements="11" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
       <file name="globalStyle.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\styles\globalStyle.ts">
         <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
@@ -196,51 +196,51 @@
       </file>
       <file name="index.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\styles\index.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
       </file>
       <file name="theme.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\styles\theme.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="43" count="2" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
       </file>
     </package>
     <package name="utils">
-      <metrics statements="20" coveredstatements="9" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <metrics statements="20" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="3"/>
       <file name="currencyConverter.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\utils\currencyConverter.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="3" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
       </file>
       <file name="highlightTextConverter.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\utils\highlightTextConverter.ts">
-        <metrics statements="6" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
       </file>
       <file name="index.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\utils\index.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
       </file>
       <file name="jwtExpirationDateConverter.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\utils\jwtExpirationDateConverter.ts">
-        <metrics statements="6" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
       </file>
       <file name="pxToRem.ts" path="D:\HUGO\PROGRAMAÇÃO\PROJETOS\PROJETOS DNC\DNC-SALES-DASHBOARD\dnc-sales-dashboard\src\utils\pxToRem.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="63" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="103" type="stmt"/>
       </file>
     </package>
   </project>
