@@ -1,8 +1,9 @@
 import styled from 'styled-components'
-import { ButtonProps } from '@/types'
 import { pxToRem } from '@/utils'
 
-export const StyledButton = styled.button<ButtonProps>`
+export const StyledButton = styled.button<
+  React.ButtonHTMLAttributes<HTMLButtonElement>
+>`
   border-radius: ${pxToRem(8)};
   border: none;
   box-sizing: border-box;
@@ -30,7 +31,7 @@ export const StyledButton = styled.button<ButtonProps>`
     }
   }
 
-  &.bordererless-alert {
+  &.borderless-alert {
     background-color: none;
     color: ${(props) => props.theme.buttons.alert};
     height: 0;
@@ -46,7 +47,6 @@ export const StyledButton = styled.button<ButtonProps>`
     cursor: not-allowed;
     &:hover {
       background-color: ${(props) => props.theme.buttons.disabled};
-      color: ${(props) => props.theme.buttons.disabledColor};
     }
   }
 `
