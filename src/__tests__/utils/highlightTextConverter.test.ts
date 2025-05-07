@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { highlightTextConverter } from '@/utils'
-=======
-import { highlightTextConverter } from '@/utils/highlightTextConverter'
->>>>>>> f4bd104 (feat: adding unit tests)
 
 describe('highlightTextConverter', () => {
   it('should return the correct text for "alert"', () => {
