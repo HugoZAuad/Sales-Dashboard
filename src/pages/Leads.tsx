@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 //Components
 import { ChangeEvent, useState, useEffect } from 'react'
 import {

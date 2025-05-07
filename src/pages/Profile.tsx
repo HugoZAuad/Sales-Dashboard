@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { ChangeEvent, useContext, useEffect, useState } from 'react'
 import { AppThemeContext } from '@/contexts/appThemeContext'
 import Cookies from 'js-cookie'
